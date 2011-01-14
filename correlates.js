@@ -1,4 +1,7 @@
 $(function(){
+  $("#filter_select_1").sSelect();
+  $("#filter_select_2").sSelect();
+  
   var po = org.polymaps;
 
   var map = po.map()

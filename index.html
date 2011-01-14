@@ -9,16 +9,32 @@
   <link href="style.css" media="screen" rel="stylesheet" type="text/css" /> 
   <script type="text/javascript" src="polymaps.js"></script>
   <script type="text/javascript" src="jquery-1.4.4.min.js"></script>
+  <script type="text/javascript" src="jquery.selectbox.js"></script>
   <script type="text/javascript" src="correlates.js"></script>
 </head>
 <body>
   <div class="topbar">
-    <span class="title">CORRELATES</span>
+    <span class="blue">CORRELATES</span>
     <span class="separator"> — </span>
-    <span class="lightest_gray">tagline for data set</span>
+    <span class="lightest_gray">tagline for website</span>
   </div>
   <div class="showbar">
-  
+    <div class="dropdown_filter red">
+      <span class='show_me'>show me:</span>
+      <select id='filter_select_1'>
+        <option value='1'>hello</option>
+        <option value='2'>hello</option>
+        <option value='3'>hello</option>
+      </select>      
+    </div>
+    <div class="dropdown_filter green">
+      <span class='white'>and</span>
+      <select id='filter_select_2'>
+        <option value='1'>hello</option>
+        <option value='2'>hello</option>
+        <option value='3'>hello</option>
+      </select>      
+    </div>
   </div>
   <div class="map">
     
