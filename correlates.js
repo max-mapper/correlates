@@ -5,7 +5,7 @@ $(function(){
   var po = org.polymaps;
 
   var map = po.map()
-      .container($('.map')[0].appendChild(po.svg("svg")))
+      .container($('.mapContainer')[0].appendChild(po.svg("svg")))
       .add(po.interact())
       .add(po.hash());
 
