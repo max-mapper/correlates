@@ -10,9 +10,9 @@ $(function(){
       .add(po.hash());
 
   map.add(po.image()
-      .url(po.url("http://{S}tile.cloudmade.com"
-      + "/1a1b06b230af4efdbb989ea99e9841af" // http://cloudmade.com/register
-      + "/998/256/{Z}/{X}/{Y}.png")
+    .url(po.url("http://{S}tile.cloudmade.com"
+    + "/d3394c6c242a4f26bb7dd4f7e132e5ff" // http://cloudmade.com/register
+    + "/37608/256/{Z}/{X}/{Y}.png")
       .repeat(false)
       .hosts(["a.", "b.", "c.", ""])));
 
