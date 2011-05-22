@@ -1,80 +1,28 @@
-.topbar {
-  position: relative;
-  height: 30px;
-  width: 100%;
-  background-color: #1A1A1A;
-}
-
-.showbar {
-  position: relative;
-  height: 50px;
-  width: 100%;
-  background-color: #252525;
-  border-top: 1px solid #313131;
-}
-
-div#header{position:absolute;top:0px;left:0px;right:0px;height:81px}
-div#wrapper{position:absolute;top:81px;left:0px;right:0px;bottom:0px;}
-div#left{position:absolute;top:0px;bottom:0px;left:0px;width:300px;overflow-y:auto}
-div#right{position:absolute;top:0px;bottom:0px;right:0px;left:300px;overflow-y:auto}
-
-.mapContainer {
-  width: 100%;
-}
-
-.sidebar {
-  height: 100%;
-  width: 300px;
-  background-color: #F0FFFD;
-}
-
-.blue {
-  color: #d5f3ff;
-  font-family: "Geneva";
-  font-size: 13px;
-  padding: 0px 0px 0px 18px;
-  line-height: 30px;
-}
-
-.red {color: #B43D54;}
-.green {color: #42A360;}
-
-.white {
-  color: #FFFFFF;
-  float: left;
-  font-size: 14px;
-  margin: 0px 0px 0px 0px;
-  padding: 0 1px 0 9px;
-}
-
-.separator {
-  color: #FFFFFF;
-}
-
-
-.lightest_gray {
-  color: #636363;
-  font-family: "Geneva";
-  font-size: 13px;
-}
-
-.light_gray {
-  color: #959595;
-  font-family: "Geneva";
-  font-size: 13px;
-}
-
-.gray {
-  color: #c2c2c2;
-  font-family: "Geneva";
-  font-size: 13px;
-}
-
-.yellow {
-  color: #fff799;
-  font-family: "Geneva";
-  font-size: 14px;
-}
+#header{position:absolute;top:0px;left:0px;right:0px;height:81px}
+#wrapper{position:absolute;top:81px;left:0px;right:0px;bottom:0px;}
+#left{position:absolute;top:0px;bottom:0px;left:0px;width:300px;overflow-y:auto}
+#right{position:absolute;top:0px;bottom:0px;right:0px;left:300px;overflow-y:auto}
+.mapContainer{width:100%;}
+.topbar{position:relative;height:30px;width:100%;background-color:#1A1A1A;}
+.showbar{position:relative;height:50px;width:100%;background-color:#252525;border-top:1px solid #313131;}
+.sidebar{height:100%;width:299px;background-color:#F0FFFD;position:relative;border-right:1px solid #C0CCCA;}
+.sidebar .title{font-family:"Geneva";font-size:18px;line-height:18px;}
+.sidebar .timestamp{opacity:0.3;font-family:"Geneva";font-size:10px;line-height:16px;}
+.sidebar .edit{opacity:0.3;font-family:"Geneva";font-size:10px;line-height:18px;padding-left:12px;background-image:url('edit.png');background-position:0 4px;background-repeat:no-repeat;}
+.sidebar .close{position:absolute;right:10px;top:15px;width:16px;height:16px;opacity:0.2;background-image:url('close.png');}
+.sidebar .close:hover,.sidebar .edit:hover{opacity:1;}
+.sidebar .top{height:37px;background-image:url('sidebar-bg.png');background-repeat:repeat-x;border-bottom:1px solid #E1EEEC;padding:16px;}
+.sidebar .bottom{padding:10px 16px;}
+.sidebar p{font-family:"Geneva";font-size:11px;line-height:12px;padding-bottom:10px;color:#252525;}
+.blue{color:#d5f3ff;font-family:"Geneva";font-size:13px;line-height:30px;padding:0 0 0 18px;}
+.red{color:#B43D54;}
+.green{color:#42A360;}
+.white{color:#FFF;float:left;font-size:14px;margin:0;padding:0 1px 0 9px;}
+.separator{color:#FFF;}
+.lightest_gray{color:#636363;font-family:"Geneva";font-size:13px;}
+.light_gray{color:#959595;font-family:"Geneva";font-size:13px;}
+.gray{color:#c2c2c2;font-family:"Geneva";font-size:13px;}
+.yellow{color:#fff799;font-family:"Geneva";font-size:14px;}
 
 
 /*POLYMAPS*/
